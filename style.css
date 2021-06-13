@@ -1,0 +1,60 @@
+body {
+   min-width: 320px;
+   background-image: linear-gradient(90deg, #16222A, #3A6073);
+   font-family: 'Open Sans', sans-serif;
+}
+
+h3, h4 {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.title {
+   text-align: center;
+   font-size: 50px;
+   color: #fff;
+}
+
+.player__item {
+   float: left;
+   max-width: 340px;
+   height: 400px;
+   margin-top: 100px;
+   margin-left: 50px;
+   padding: 10px;
+   border-radius: 20px;
+   background-color: #eefaff9b;
+   box-shadow: 0 0 30px 5px #5f8095;
+}
+
+.player__image {
+   max-width: 250px;
+   margin-top: -30px;
+   margin-left: 25px;
+   border-radius: 20px;
+}
+
+.player__title {
+   margin-top: 10px;
+   text-align: center;
+   font-size: 24px;
+   color: rgb(66, 66, 66);
+   font-weight: 900;
+}
+
+.player__subtitle {
+   margin-bottom: 15px;
+   text-align: center;
+   font-size: 22px;
+   color: rgb(66, 66, 66);
+   font-weight: 400;
+}
+
+.audio {
+   outline: none;
+}
